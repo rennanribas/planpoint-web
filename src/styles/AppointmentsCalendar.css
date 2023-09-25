@@ -1,0 +1,20 @@
+/* AppointmentsCalendar.css */
+
+.calendar-wrapper {
+    padding: 20px;
+    background-color: #f4f6f9;
+    border: 1px solid #d0d8e4;
+    border-radius: 8px;
+  }
+  
+  /* Customizations for Calendar's Header, Days, and so on. */
+  /* Feel free to modify as needed. */
+  .react-calendar__month-view__days__day--weekend {
+    background-color: #f7fafd;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
