@@ -1,20 +1,32 @@
-/* AppointmentsCalendar.css */
+.client-details {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.client-details h2 {
+    margin-top: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.client-details p {
+    margin: 10px 0;
+    color: #666;
+}
+
+#addressDropdown {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
 
 .calendar-wrapper {
-    padding: 20px;
-    background-color: #f4f6f9;
-    border: 1px solid #d0d8e4;
-    border-radius: 8px;
-  }
-  
-  /* Customizations for Calendar's Header, Days, and so on. */
-  /* Feel free to modify as needed. */
-  .react-calendar__month-view__days__day--weekend {
-    background-color: #f7fafd;
-  }
-  
-  .react-calendar__tile--active {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
+    margin-top: 20px;
+}
+
+.hasAppointments {
+    background-color: #ffc107; 
+}
