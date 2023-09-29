@@ -30,3 +30,8 @@
 .hasAppointments {
     background-color: #ffc107; 
 }
+
+.green-event {
+    background-color: green;
+    color: white; /* Optional: Change text color */
+  }
